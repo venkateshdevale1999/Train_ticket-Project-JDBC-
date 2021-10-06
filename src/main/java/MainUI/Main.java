@@ -58,7 +58,7 @@ public class Main {
                 int n = sc.nextInt();
                 int i = 0;
                 while (i < n) {
-                    System.out.println("Enter "+(i+1)+ "passenger details:");
+                    System.out.println("Enter passenger: "+(i+1)+ "details:");
                     System.out.print("Enter the name: ");
                     String name = sc.next();
                     System.out.print("Enter the Age: ");
