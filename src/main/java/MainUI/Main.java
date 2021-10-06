@@ -58,10 +58,10 @@ public class Main {
                 int n = sc.nextInt();
                 int i = 0;
                 while (i < n) {
-                    System.out.println("Enter passenger details:");
+                    System.out.println("Enter "+(i+1)+ "passenger details:");
                     System.out.print("Enter the name: ");
                     String name = sc.next();
-                    System.out.print("Enter the Age");
+                    System.out.print("Enter the Age: ");
                     Integer age = sc.nextInt();
                     System.out.println("Enter F for Female " + " Enter M for Male");
                     String gender = sc.next();
