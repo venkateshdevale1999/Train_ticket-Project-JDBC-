@@ -107,7 +107,7 @@ public class Ticket {
             FileWriter myWriter = new FileWriter("C:\\Users\\user105\\Desktop\\"+getPnr()+".txt");
             myWriter.write(String.valueOf(generateTicket()));
             myWriter.close();
-            system.out.println("Ticket generated successfully");
+            System.out.println("Ticket generated successfully");
             System.out.println("Successfully wrote to the file.");
         } catch (IOException e) {
             System.out.println("An error occurred.");
